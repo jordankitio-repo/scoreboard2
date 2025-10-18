@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="scrimba_project_1.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="homediv">
+                <h3>HOME</h3>
+                <div class="firstbox">
+                    <p id="score1">0</p>
+                </div>
+                <div class="homebuttons">
+                <button onclick="homeaddone()">+1</button>
+                <button onclick="homeaddtwo()">+2</button>
+                <button onclick="homeaddthree()">+3</button>
+                </div>
+            </div>
+            <div class="extrafunctions">
+                <div class="timer-container">
+                    <span id="timer-display">00:00:00</span>
+                </div>
+                <button id="start" onclick="startTimer()">Start ▶️</button>
+                <button id="pause" onclick="pauseTimer()">Pause ⏸️</button>
+                <button id="resume" onclick="resumeTimer()">Resume ↩️</button>
+                <button id="restart" onclick="restartTimer()">Restart 🔄</button>
+                <button id="reseter" onclick="reseter()">Reset Score 🔁</button>
+            </div>
+            <div class="guestdiv">
+                <h3>GUEST</h3>
+                 <div class="secondbox">
+                    <p id="score2">0</p>
+                </div>
+                <div class="guestbuttons">
+                <button onclick="guestaddone()">+1</button>
+                <button onclick="guestaddtwo()">+2</button>
+                <button onclick="guestaddthree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="scrimba project_1.js"></script>
+    </body>
+</html>
